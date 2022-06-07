@@ -80,7 +80,6 @@ img {
 .ContenedorMuestras {
   display: grid;
   grid-template-columns: auto;
-  /*grid-template-rows: auto;*/
   gap: 1%;
   width: 80%;
   margin: 0 auto;
@@ -108,6 +107,16 @@ h1, h2, h3 {
 .contacto, .cDatos {
   margin-left: 5%;
   padding-top: 5%; }
+
+.whatsapp {
+  background-color: #05b81a;
+  padding: 1%;
+  text-decoration: none; }
+
+.discord {
+  background-color: #9254f0;
+  padding: 1%;
+  text-decoration: none; }
 
 footer {
   position: fixed;

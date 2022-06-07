@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+@import 'chat';
 
 body{
     background-color: lightgray;
@@ -113,7 +114,6 @@ img{
 .ContenedorMuestras{
     display: grid;
     grid-template-columns: auto;
-    /*grid-template-rows: auto;*/
     gap: 1%;
     width: 80%;
     margin: 0 auto;
@@ -152,6 +152,17 @@ h1, h2, h3{
     padding-top: 5%;
     }
 
+.whatsapp{
+    background-color: map-get($chat, whatsapp);
+    padding: 1%;
+    text-decoration: none;
+    }
+
+.discord{
+    background-color: map-get($chat, discord);
+    padding: 1%;
+    text-decoration: none;
+}
 
 
 footer{
@@ -177,7 +188,8 @@ footer{
     }
 
    
-    
+
+
    
 }
 

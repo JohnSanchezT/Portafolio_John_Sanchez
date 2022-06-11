@@ -147,10 +147,25 @@ h1, h2, h3{
     padding-top: 20%;
 }
 
-.contacto, .cDatos{
+.contacto{
+margin-top: 5%;
+}
+
+#mensaje {
+    padding-bottom: 5%;
+}
+
+.cDatos{
     margin-left: 5%;
-    padding-top: 5%;
+    padding-top: 1%;
+    margin-bottom: 2%;
     }
+
+.nDatos{
+    margin-left: 5%;
+    margin-bottom: 0;   
+}
+
 
 .whatsapp{
     background-color: map-get($chat, whatsapp);
@@ -185,6 +200,11 @@ footer{
         a{
             padding-right: 1%;
         }
+        :hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5); 
+          }
     }
 
    
@@ -211,15 +231,27 @@ footer{
         }
 }
 
-
 @media screen and (max-width: 480px){
     .textCarrusel{
         font-size:0.5rem;
-        position: fixed;
         top: 8%;
-        right: 1%; 
+        right: 1%;
+        padding: 0; 
     } 
 }
+
+@media screen and (max-width: 479px) {
+    #imgCenter {
+      max-width: 200%;
+      display: block;
+      position: relative;
+      left: -50%;
+      }
+    .textCarrusel{
+        position: fixed;
+    } }
+
+
 
 
 
